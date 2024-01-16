@@ -60,9 +60,9 @@ const SidebarTopA = () => (
             <DropdownItem tag={Link} to="/apps/settings-edit">
               Settings
             </DropdownItem>
-            <DropdownItem tag={Link} to="/apps/billing-edit">
+            {/* <DropdownItem tag={Link} to="/apps/billing-edit">
               Billings
-            </DropdownItem>
+            </DropdownItem> */}
             <DropdownItem divider />
             <DropdownItem tag={Link} to="/pages/login">
               <i className="fa fa-fw fa-sign-out mr-2"></i>
