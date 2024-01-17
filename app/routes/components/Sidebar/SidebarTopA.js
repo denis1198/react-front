@@ -22,21 +22,22 @@ const SidebarTopA = () => (
       <Sidebar.Section className="pt-0">
         <Link to="/" className="d-block">
           <Sidebar.HideSlim>
+            {/* imagem da pessoa */}
             <Avatar.Image
               size="lg"
-              src={avatarImg}
-              addOns={[
-                <AvatarAddOn.Icon
-                  className="fa fa-circle"
-                  color="white"
-                  key="avatar-icon-bg"
-                />,
-                <AvatarAddOn.Icon
-                  className="fa fa-circle"
-                  color="success"
-                  key="avatar-icon-fg"
-                />,
-              ]}
+              // src={avatarImg} -- imagem da pessoa é bem aqui
+              // addOns={[
+              //   <AvatarAddOn.Icon
+              //     className="fa fa-circle"
+              //     color="white"
+              //     key="avatar-icon-bg"
+              //   />,
+              //   <AvatarAddOn.Icon
+              //     className="fa fa-circle"
+              //     color="success"
+              //     key="avatar-icon-fg"
+              //   />,
+              // ]}
             />
           </Sidebar.HideSlim>
         </Link>
@@ -46,13 +47,12 @@ const SidebarTopA = () => (
             color="link"
             className="pl-0 pb-0 btn-profile sidebar__link"
           >
-            {faker.name.firstName()} {faker.name.lastName()}
+            {/* nome dropdown */}
+            Denis Reis
             <i className="fa fa-angle-down ml-2"></i>
           </DropdownToggle>
           <DropdownMenu persist>
-            <DropdownItem header>
-              {faker.name.firstName()} {faker.name.lastName()}
-            </DropdownItem>
+            <DropdownItem header>Denis Reis</DropdownItem>
             <DropdownItem divider />
             <DropdownItem tag={Link} to="/apps/profile-details">
               My Profile
@@ -69,9 +69,11 @@ const SidebarTopA = () => (
               Sign Out
             </DropdownItem>
           </DropdownMenu>
+          {/*  */}
         </UncontrolledButtonDropdown>
         <div className="small sidebar__link--muted">
-          {faker.name.jobTitle()}
+          {/* Descrição sobre o trabalho - cliente ou o que for */}
+          {/* {faker.name.jobTitle()} */}
         </div>
       </Sidebar.Section>
     </Sidebar.HideSlim>

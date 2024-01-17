@@ -23,7 +23,8 @@ export const DefaultSidebar = () => (
     <Sidebar.HideSlim>
       <Sidebar.Section>
         <Link to="/" className="sidebar__brand">
-          <LogoThemed checkBackground />
+          {/* <LogoThemed checkBackground /> */}
+          Logo Sap/ia
         </Link>
       </Sidebar.Section>
     </Sidebar.HideSlim>

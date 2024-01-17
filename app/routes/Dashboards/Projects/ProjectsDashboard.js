@@ -32,10 +32,10 @@ const ProjectsDashboard = () => (
   <Container>
     <Row className="mb-5">
       <Col lg={12}>
-        <HeaderMain title="Projects" className="mb-4 mb-lg-5" />
-        <p>{faker.lorem.paragraph()}</p>
+        <HeaderMain title="Concursos disponíveis" className="mb-4 mb-lg-5" />
+        {/* <p>{faker.lorem.paragraph()}</p> */}
       </Col>
-      <Col lg={3}>
+      {/* <Col lg={3}>
         <div className="hr-text hr-text-center my-2">
           <span>Payments</span>
         </div>
@@ -163,7 +163,7 @@ const ProjectsDashboard = () => (
             </tr>
           </tbody>
         </Table>
-      </Col>
+      </Col> */}
     </Row>
     <Row>
       <Col lg={4}>
@@ -190,12 +190,12 @@ const ProjectsDashboard = () => (
             <ListGroupItem action>
               <TasksMedia iconColor="success" />
             </ListGroupItem>
-            <ListGroupItem action>
+            {/* <ListGroupItem action>
               <TasksMedia iconColor="danger" id="2" />
-            </ListGroupItem>
-            <ListGroupItem action>
+            </ListGroupItem> */}
+            {/* <ListGroupItem action>
               <TasksMedia iconColor="warning" id="3" />
-            </ListGroupItem>
+            </ListGroupItem> */}
             <ListGroupItem action>
               <TasksMedia id="4" />
             </ListGroupItem>
@@ -229,7 +229,7 @@ const ProjectsDashboard = () => (
               badgeTitle="Warning"
               badgeColor="warning"
             />
-            <TimelineMini
+            {/* <TimelineMini
               icon="info-circle"
               iconClassName="text-info"
               badgeTitle="Info"
@@ -248,7 +248,7 @@ const ProjectsDashboard = () => (
               iconClassName="text-success"
               badgeTitle="Success"
               badgeColor="success"
-            />
+            /> */}
             <TimelineMini icon="circle" badgeTitle="Obsolete" />
           </CardBody>
           <ListGroup flush>
