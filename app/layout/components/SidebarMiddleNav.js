@@ -26,8 +26,8 @@ export const SidebarMiddleNav = () => (
       icon={<i className="fa fa-fw fa-clone"></i>}
       title="Concursos"
     >
-      <SidebarMenu.Item title="Cards" to="/cards/cards" exact />
-      <SidebarMenu.Item title="Cards Headers" to="/cards/cardsheaders" exact />
+      <SidebarMenu.Item title="Concursos Ativos" to="/cards/cards" exact />
+      <SidebarMenu.Item title="Cards Passados" to="/cards/cardsheaders" exact />
     </SidebarMenu.Item>
     {/* -------- Layouts ---------*/}
     <SidebarMenu.Item

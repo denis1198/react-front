@@ -35,7 +35,7 @@ const Cards = () => (
   <React.Fragment>
     <Container>
       <HeaderMain title="Concursos" />
-      <Input placeholder="Digite o concurso desejado." />
+      <Input placeholder="Digite o concurso desejado." className="mb-3" />
 
       {/* START Header 1 */}
       <Row>
@@ -65,12 +65,12 @@ const Cards = () => (
             </CardHeader>
             <CardBody>{cardText({ cardNo: "1.03" })}</CardBody>
           </Card>
-          <Card className="mb-3">
+          {/* <Card className="mb-3">
             <CardHeader tag="h6" className="bg-secondary text-white">
               Secondary Card
             </CardHeader>
             <CardBody>{cardText({ cardNo: "1.04" })}</CardBody>
-          </Card>
+          </Card> */}
           <Card className="mb-3">
             <CardHeader tag="h6" className="bg-info text-white">
               Info Card
@@ -134,12 +134,12 @@ const Cards = () => (
             </CardHeader>
             <CardBody>{cardText({ cardNo: "1.03" })}</CardBody>
           </Card>
-          <Card className="mb-3">
+          {/* <Card className="mb-3">
             <CardHeader tag="h6" className="bg-secondary text-white">
               Secondary Card
             </CardHeader>
             <CardBody>{cardText({ cardNo: "1.04" })}</CardBody>
-          </Card>
+          </Card> */}
           <Card className="mb-3">
             <CardHeader tag="h6" className="bg-info text-white">
               Info Card

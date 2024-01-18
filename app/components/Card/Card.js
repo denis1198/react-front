@@ -11,6 +11,7 @@ const Card = (props) => {
     className,
     classes["custom-card"],
     classes[`custom-card--${type}`],
+    classes[`custom-card--shadow`],
     color && classes[`custom-card--color-${color}`]
   );
   return (
