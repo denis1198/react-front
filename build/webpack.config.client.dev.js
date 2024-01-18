@@ -131,7 +131,21 @@ module.exports = {
     historyApiFallback: {
       index: BASE_PATH,
     },
-    host: "0.0.0.0",
+    host: "localhost",
     port: 4100,
+  },
+  module: {
+    rules: [
+      {
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+          options: {
+            presets: ["@babel/preset-react"],
+          },
+        },
+      },
+    ],
   },
 };

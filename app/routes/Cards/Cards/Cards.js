@@ -85,7 +85,7 @@ const Cards = () => (
           </Card>
         </Col>
         <Col lg={3}>
-          <Card className="mb-3">
+          <Card className="mb-3" shadow="shadow">
             <CardHeader tag="h6" className="bg-warning text-white">
               Warning Card
             </CardHeader>
